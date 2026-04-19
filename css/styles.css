@@ -3178,7 +3178,7 @@ td:last-child {
     line-height   : var(--vspace-1);
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color         : var(--color-1);
+    color         : var(--color-1-lighter);
     transform     : translate(0.2em, 0);
     margin-top    : 0;
 }
@@ -3196,6 +3196,8 @@ td:last-child {
 /* Make attention-getter copy bright for legibility */
 .attention-getter {
     color: var(--color-gray-3);
+    font-weight: 500;
+    text-align: center;
 }
 
 /* Improve readability for About list */
@@ -3939,7 +3941,7 @@ td:last-child {
 .s-intro__content-pretitle {
     font-weight  : 600;
     margin-bottom: var(--vspace-0_125);
-    color        : var(--color-1);
+    color        : var(--color-1-lighter);
 }
 
 .s-intro__content-title {
@@ -3948,7 +3950,7 @@ td:last-child {
     letter-spacing: -0.025em;
     margin-top    : 0;
     margin-bottom : var(--vspace-1_25);
-    color         : var(--color-1-darker);
+    color         : var(--color-1-lighter);
 }
 
 .s-intro__content-btns {
